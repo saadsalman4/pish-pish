@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devday competetion</title>
+    <script src="backend.js"></script>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        text-align: center;
+    }
+    input { 
+        margin-bottom: 18px;
+        padding: 5px;
+    }
+    button {
+        padding: 7px 50px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    #result {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>Enter two numbers:</h2>
+        <input type="number" id="number1" placeholder="Enter number 1">
+        <br>
+        <input type="number" id="number2" placeholder="Enter number 2">
+        <br>
+        <button onclick="displayResult()">Show Result</button>
+    </div>
+</body>
+</html>
